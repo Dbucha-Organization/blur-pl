@@ -31,7 +31,7 @@ prevbtn.addEventListener("click", () => {
   prevSlide();
   resetInterval();
 });
-let slideInterval = setInterval(nextSlide, 3000);
+let slideInterval = setInterval(nextSlide, 5000);
 
 dots.forEach((dot, i) => {
   dot.addEventListener("click", () => {
