@@ -434,7 +434,10 @@ a {
   .slider-item img {
     width: 100%;
   }
-
+  .warn {
+    font-size: 10px;
+    padding: 5px;
+  }
   header {
     position: relative;
     display: flex;
