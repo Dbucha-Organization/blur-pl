@@ -43,7 +43,7 @@ dots.forEach((dot, i) => {
 
 function resetInterval() {
   clearInterval(slideInterval);
-  slideInterval = setInterval(nextSlide, 3000);
+  slideInterval = setInterval(nextSlide, 5000);
 }
 
 // Age verification modal
