@@ -355,6 +355,7 @@ header {
 }
 
 footer {
+  position: relative;
   width: 100%;
   background-color: #007ec2;
   display: flex;
@@ -387,11 +388,12 @@ footer {
   display: flex;
   gap: 80px;
 }
-.copy-vrite {
+.copyright {
   width: 100%;
   text-align: center;
-  position: absolute;
-  bottom: 10px;
+  padding-top: 35px;
+  border-top: 2px solid gray;
+
   color: rgb(168, 167, 167);
 }
 footer svg {
@@ -423,6 +425,25 @@ footer svg {
   gap: 10px;
   color: white;
   font-size: 20px;
+}
+.foot-cont-three p:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.foot-cont-three p {
+  position: relative;
+  padding-right: 16px;
+}
+.foot-cont-three p::after {
+  content: "▼";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+.foot-cont-three a {
+  display: none;
 }
 .social {
   width: 100%;
