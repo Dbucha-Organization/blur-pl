@@ -399,6 +399,14 @@ footer {
 footer svg {
   width: 40px;
 }
+.city {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
 .cont-col {
   display: flex;
   flex-direction: column;

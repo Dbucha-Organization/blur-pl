@@ -130,5 +130,4 @@ function openCont() {
   Array.from(cont).forEach((el) => {
     el.style.display = "block";
   });
-  city.style.display = "none";
 }
